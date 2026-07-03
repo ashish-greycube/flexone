@@ -85,7 +85,7 @@ after_migrate = "flexone.migrations.after_migrations"
 # Hook on document methods and events
 
 doc_events = {
-    "Sales Invoice": {"on_submit": "flexone.on_submit_sales_invoice"}
+    "Sales Invoice": {"on_submit": "flexone.event.on_submit_sales_invoice"}
     # 	"*": {
     # 		"on_update": "method",
     # 		"on_cancel": "method",
