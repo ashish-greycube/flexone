@@ -1,10 +1,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
-
 __version__ = "0.0.1"
-
 import frappe
-
 
 def after_migrate():
     from frappe.custom.doctype.custom_field.custom_field import create_custom_field
